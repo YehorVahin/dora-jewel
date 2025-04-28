@@ -1,18 +1,17 @@
-import css from './Item.module.css'
+import React, { Component } from 'react'
 
-const Item = ({image, name, color, stone, price}) => {
+export class Item extends Component {
+  render() {
     return (
-      <div className={css.item}>
-        <img src={image} alt="Jewelry image" className={css.itemimage}/>
-        <div className={css.desc}>
-            <p className={css.name}>{name}</p>
-            <p className={css.color}>{color}</p>
-            <p className={css.stone}>{stone}</p>
-            <b className={css.price}>{price} грн.</b>
-        </div>
+      <div className='item'>
+        <img src={"./img/" + this.props.item.img} alt="" onClick={() => this.props.onShowItem(this.props.item)} />
+        <h2>{this.props.item.title}</h2>
+        <p>{this.props.item.desc}</p>
+        <b>{this.props.item.price}</b>
+        <div className='add-to-cart' onClick={() => this.props.onAdd(this.props.item)}>+</div>
       </div>
     )
-  
+  }
 }
 
 export default Item
