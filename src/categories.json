@@ -1,0 +1,34 @@
+[
+    {
+        "key": "rings",
+        "name": "Каблучки"
+    },
+    {
+        "key": "weddingrings",
+        "name": "Обручки"
+    },
+    {
+        "key": "earrings",
+        "name": "Сережки"
+    },
+    {
+        "key": "chains",
+        "name": "Ланцюжки"
+    },
+    {
+        "key": "bracelets",
+        "name": "Браслети"
+    },
+    {
+        "key": "necklaces",
+        "name": "Кольє"
+    },
+    {
+        "key": "crosses",
+        "name": "Хрестики"
+    },
+    {
+        "key": "kits",
+        "name": "Набори"
+    }
+]
