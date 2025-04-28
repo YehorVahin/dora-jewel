@@ -1,0 +1,58 @@
+[
+    {
+        "key": "rings",
+        "name": "Каблучка",
+        "color": "Жовте золото",
+        "stone": "Рубін",
+        "image": "ring.png",
+        "price": "20000"
+    },
+    {
+        "key": "rings",
+        "name": "Каблучка",
+        "color": "Жовте золото",
+        "stone": "Рубін",
+        "image": "../public/img/ring.png",
+        "price": "20000"
+    },
+    {
+        "key": "rings",
+        "name": "Каблучка",
+        "color": "Жовте золото",
+        "stone": "Рубін",
+        "image": "../public/img/ring.png",
+        "price": "20000"
+    },
+    {
+        "key": "rings",
+        "name": "Каблучка",
+        "color": "Жовте золото",
+        "stone": "Рубін",
+        "image": "../public/img/ring.png",
+        "price": "20000"
+    },
+    {
+        "key": "rings",
+        "name": "Каблучка",
+        "color": "Жовте золото",
+        "stone": "Рубін",
+        "image": "../public/img/ring.png",
+        "price": "20000"
+    },
+    {
+        "key": "rings",
+        "name": "Каблучка",
+        "color": "Жовте золото",
+        "stone": "Рубін",
+        "image": "../public/img/ring.png",
+        "price": "20000"
+    },
+    {
+        "key": "rings",
+        "name": "Каблучка",
+        "color": "Жовте золото",
+        "stone": "Рубін",
+        "image": "../public/img/ring.png",
+        "price": "20000"
+    }
+]

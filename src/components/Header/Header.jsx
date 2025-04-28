@@ -1,7 +1,7 @@
 import css from './Header.module.css'
 import { FaTelegram } from "react-icons/fa";
 import React, { Component } from 'react'
-import Categories from './Categories';
+import Categories from '../Categories/Categories';
 
 
 
