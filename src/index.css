@@ -6,6 +6,43 @@
   font-weight: 400;
   font-style: normal;
 }
+.header{
+  display: flex;
+  background-color: #43020B;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.menu{
+  float: left;
+  display: flex;
+  list-style: none;
+  margin-left: 100px;
+  gap: 30px;
+  color: #fff;
+}
+.logo{
+  color: #FFE998;
+  font-size: 24px;
+}
+.listitem{
+  cursor: pointer;
+}
+.telegram{
+  color: rgb(22, 166, 223);
+  font-size: 20px;
+}
+.telegramlink{
+  display: flex;
+  gap: 5px;
+  float: right;
+}
+.telegramlink a{
+  color: #fff;
+  text-decoration: none;
+}
 .categories div{
   display: inline-block;
   background-color: #f2f2f2;
