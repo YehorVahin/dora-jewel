@@ -1,0 +1,14 @@
+.categories li{
+    display: inline-block;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 500ms ease;
+  }
+  .categories li:hover{
+    border-color: gold;
+    transform: scale(1.2);
+  }

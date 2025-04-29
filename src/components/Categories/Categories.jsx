@@ -1,54 +1,22 @@
-import React, { Component } from 'react'
+import React from 'react'
+import css from './Categories.module.css'
 
-export class Categories extends Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            categories:[
-                {
-                    "key": "rings",
-                    "name": "Каблучки"
-                },
-                {
-                    "key": "weddingrings",
-                    "name": "Обручки"
-                },
-                {
-                    "key": "earrings",
-                    "name": "Сережки"
-                },
-                {
-                    "key": "chains",
-                    "name": "Ланцюжки"
-                },
-                {
-                    "key": "bracelets",
-                    "name": "Браслети"
-                },
-                {
-                    "key": "necklaces",
-                    "name": "Кольє"
-                },
-                {
-                    "key": "crosses",
-                    "name": "Хрестики"
-                },
-                {
-                    "key": "kits",
-                    "name": "Набори"
-                }
-            ]
-        }
-    }
-  render() {
-    return (
-      <div className='categories'>
-        {this.state.categories.map(el => (
-            <div key={el.key} onClick={() => this.props.chooseCategory(el.key)}>{el.name}</div>
-        ))}
-      </div>
-    )
-  }
+
+const Categories = () => {
+  return (
+    <div className={css.categories}>
+            <ul>
+                <li>Каблучки</li>
+                <li>Обручки</li>
+                <li>Ланцюжки</li>
+                <li>Браслети</li>
+                <li>Сережки</li>
+                <li>Кольє</li>
+                <li>Хрестики</li>
+                <li>Набори</li>
+            </ul>
+    </div>
+  )
 }
 
 export default Categories

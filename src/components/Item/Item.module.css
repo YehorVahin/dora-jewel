@@ -1,4 +1,24 @@
 .item{
     display: flex;
     flex-direction: column;
+    list-style: none;
+    max-width: 300px;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 5px 15px 0px #606060; 
+    box-shadow: 2px 5px 15px 0px #606060;
+    border-radius: 10px;
+}
+.item img{
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.item img:hover{
+    transform: scale(1.2);
+}
+.item p,
+.item b{
+    margin-bottom: 10px;
+    padding-left: 20px;
 }
