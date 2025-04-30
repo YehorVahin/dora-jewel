@@ -16,7 +16,7 @@
     padding: 20px;
 }
 .item img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .item p,
 .item b{

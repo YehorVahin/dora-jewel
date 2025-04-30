@@ -12,7 +12,7 @@ const Items = ({item}) => {
             {item.map(({id, image, name, weight, stone, article}) => (
                 <li className={css.listitem} key={id}>
                     <Item image={image} name={name} weight={weight} stone={stone} article={article}>
-                    <button key={id} className={css.button_open} onClick={() => setModalInfoOpen(true)}>Детальніше</button>
+                    <button className={css.button_open} onClick={() => setModalInfoOpen(true)}>Детальніше</button>
                     </Item>
                 </li>
             ))}
@@ -20,7 +20,7 @@ const Items = ({item}) => {
         <Modal  isOpen={modalInfoIsOpen} onClose={() => setModalInfoOpen(false)}>
         {item.map(({id, image, name, weight, stone, article}) => (
                 <div className={css.listitem} key={id}>
-                    <Item key={id} image={image} name={name} weight={weight} stone={stone} article={article}>
+                    <Item image={image} name={name} weight={weight} stone={stone} article={article}>
                         
                         </Item>
                 </div>
