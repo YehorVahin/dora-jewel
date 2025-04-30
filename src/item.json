@@ -5,7 +5,7 @@
         "name": "Каблучка",
         "weight": "3.5",
         "stone": "Рубін",
-        "image": "../public/img/ring.png",
+        "image": "/img/ring.png",
         "article": "21000"
     },
     {
@@ -14,7 +14,7 @@
         "name": "Каблучка",
         "weight": "2.7",
         "stone": "Рубін",
-        "image": "../public/img/ring.png",
+        "image": "/img/ring.png",
         "article": "22000"
     },
     {
@@ -23,7 +23,7 @@
         "name": "Каблучка",
         "weight": "2.5",
         "stone": "Рубін",
-        "image": "../public/img/ring.png",
+        "image": "/img/ring.png",
         "article": "23000"
     },
     {
@@ -32,7 +32,7 @@
         "name": "Каблучка",
         "weight": "3.2",
         "stone": "Рубін",
-        "image": "../public/img/ring.png",
+        "image": "/img/ring.png",
         "article": "24000"
     },
     {
@@ -41,7 +41,7 @@
         "name": "Каблучка",
         "weight": "2.8",
         "stone": "Рубін",
-        "image": "../public/img/ring.png",
+        "image": "/img/ring.png",
         "article": "25000"
     },
     {
@@ -50,7 +50,7 @@
         "name": "Каблучка",
         "weight": "5.3",
         "stone": "Рубін",
-        "image": "../public/img/ring.png",
+        "image": "/img/ring.png",
         "article": "26000"
     },
     {
@@ -59,7 +59,7 @@
         "name": "Каблучка",
         "weight": "5.5",
         "stone": "Рубін",
-        "image": "../public/img/ring.png",
+        "image": "/img/ring.png",
         "article": "27000"
     }
 ]
