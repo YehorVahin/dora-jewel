@@ -17,9 +17,9 @@ export default function Presentation ()  {
     return (
       <div className={css.sliderinner}>
       <Slider {...settings}>
-        <div className={css.slider_item}><img src="../../../public/img/slider1.jpg" alt="" /></div>
-        <div className={css.slider_item}><img src="../../../public/img/slider2.jpg" alt="" /></div>
-        <div className={css.slider_item}><img src="../../../public/img/slider3.jpg" alt="" /></div>
+        <div className={css.slider_item}><img src="/img/slider1.jpg" alt="" /></div>
+        <div className={css.slider_item}><img src="/img/slider2.jpg" alt="" /></div>
+        <div className={css.slider_item}><img src="/img/slider3.jpg" alt="" /></div>
       </Slider>
         </div>
     )
