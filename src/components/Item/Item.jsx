@@ -1,4 +1,3 @@
-import { Modal } from '../Modal/Modal';
 import css from './Item.module.css'
 import {React} from 'react'
 
@@ -12,7 +11,6 @@ const Item = ({image, name, weight, stone, article, children}) => {
             <p className={css.stone}>Вставка: {stone}</p>
             <p className={css.article}> Артикул: {article}</p>
             <div>{children}</div>
-            
         </div>
     )
 }
