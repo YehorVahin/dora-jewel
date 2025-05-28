@@ -1,6 +1,6 @@
 import React from 'react'
 import './Modal.module.css'
-import { IoMdClose } from "react-icons/io"
+import { AiTwotoneCloseCircle } from "react-icons/ai";
 
 
 export const Modal = ({isOpen, onClose, children}) => {
@@ -10,7 +10,7 @@ export const Modal = ({isOpen, onClose, children}) => {
     <div className="modal">
         <div className="modal-wrapper">
             <div className="modal-content">
-                <button onClick={() => onClose()}><IoMdClose className="modal-close-button"/></button>
+                <AiTwotoneCloseCircle className="modal-close-button" onClick={() => onClose()}/>
                 {children}
             </div>
         </div>

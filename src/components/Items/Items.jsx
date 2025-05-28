@@ -18,12 +18,8 @@ const Items = ({item}) => {
             ))}
         </ul>
         <Modal  isOpen={modalInfoIsOpen} onClose={() => setModalInfoOpen(false)}>
-        {item.map(({id, image, name, weight, stone, article}) => (
-                <div className={css.listitem} key={id}>
-                    <Item image={image} name={name} weight={weight} stone={stone} article={article}>
-                        
-                        </Item>
-                </div>
+        {item.map(({ id, image, name, weight, stone, article }) => (
+            <Item image={image} name={name} weight={weight} stone={stone} article={article} key={id}></Item>
             ))}
         </Modal>
         </main>
