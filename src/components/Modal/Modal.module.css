@@ -2,29 +2,44 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 9999;
     overflow: auto;
-}
-.modal-wrapper{
-    position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.modal-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 100%;
     min-height: 100%;
 }
 .modal-content{
-    width: 600px;
-    position: relative;
-    margin: 10% auto;
-    padding: 40px 30px;
-    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    max-width: 300px;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 5px 15px 0px #606060; 
+    box-shadow: 2px 5px 15px 0px #606060;
     border-radius: 10px;
+    position: relative;
+}
+.modal-item-image{
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 500ms ease;
+    padding: 20px;
+}
+.modal-content p, 
+.modal-content b{
+    margin-bottom: 10px;
+    padding-left: 20px;
 }
 .modal-close-button{
     position: absolute;
