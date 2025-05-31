@@ -5,7 +5,6 @@ import Presentation from './components/Presentation/Presentation'
 import Items from './components/Items/Items'
 import item from './item.json'
 import { Modal } from './components/Modal/Modal'
-import Item from './components/Item/Item'
 
 function App () {
   const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
@@ -25,7 +24,7 @@ function App () {
     </Items>
     {modalInfoIsOpen && (
       <div>
-        {item.map(({ id, image, name, weight, stone, article }) => (
+        {item.map(({id, image, name, weight, stone, article }) => (
           <Modal key={id} isOpen={modalInfoIsOpen} onClose={handleModalClose} image={image} name={name} weight={weight} stone={stone} article={article} >
             </Modal>
            ))}
